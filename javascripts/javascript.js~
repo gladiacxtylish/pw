@@ -1,0 +1,35 @@
+
+$(document).ready(function () {
+	$('.smoothLink').smoothScroll({offset: -100, speed: 600});
+	//$('#myModal').modal();
+	
+	$(function () {
+		var navbarTop = $('#navbar').offset().top;
+
+		$(window).scroll(function () {
+			/* bind to top */
+			if (navbarTop - $(window).scrollTop() < 0 && !$('#navbar').is('.navbar-fixed-top')) {
+				$('#navbar').addClass('navbar-fixed-top');
+				$('body').addClass('navbar-fixed-top-padding');
+			}
+			/* unbind from top */
+			else if (navbarTop - $(window).scrollTop() >= 0 && $('#navbar').is('.navbar-fixed-top')){
+				$('#navbar').removeClass('navbar-fixed-top');
+				$('body').removeClass('navbar-fixed-top-padding');
+			}
+		});
+	});
+	
+	$('#box2d-button').click(function () {
+		var box2dDiv = $('<div></div>').attr({class: 'span12'});
+		var box2dIframe = $('<iframe></iframe>').attr({id: 'box2d-iframe', src: 'box2d/box2d.html'});
+		box2dDiv.append(box2dIframe);
+		$('#box2d-button').parent().after(box2dDiv);
+		$.smoothScroll({
+			scrollElement: $('#box2d-button'), 
+			scrollTarget: '#projects'
+		});
+	});
+
+});
+
