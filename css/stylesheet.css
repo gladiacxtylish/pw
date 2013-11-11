@@ -98,7 +98,7 @@ html, body {
     height: 150%;
     bottom: 0%;
     left: 0px;
-    background-image: url('../images/cloud.jpg');
+    background-image: url('../images/cloud_tiny.jpg');
     background-size: cover;
     background-position: center center;
     z-index: -1;
@@ -155,7 +155,7 @@ html, body {
     height: 150%;
     bottom: 0%;
     left: 0px;
-    background-image: url('../images/warm_day.jpg');
+    background-image: url('../images/warm_day_tiny.jpg');
     background-size: cover;
     background-position: center center;
     z-index: -1;
@@ -168,7 +168,7 @@ html, body {
     height: 150%;
     bottom: 0%;
     left: 0px;
-    background-image: url('../images/cosmos_reflection.jpg');
+    background-image: url('../images/cosmos_reflection_tiny.jpg');
     background-size: cover;
     background-position: center center;
     z-index: -1;
@@ -181,7 +181,7 @@ html, body {
     height: 150%;
     bottom: 0%;
     left: 0px;
-    background-image: url('../images/icewind_dale.jpg');
+    background-image: url('../images/icewind_dale_tiny.jpg');
     background-size: cover;
     background-position: center center;
     z-index: -1;
@@ -194,7 +194,7 @@ html, body {
     height: 150%;
     bottom: 0%;
     left: 0px;
-    background-image: url('../images/twilight_leaves.jpg');
+    background-image: url('../images/twilight_leaves_tiny.jpg');
     background-size: cover;
     background-position: center center;
     z-index: -1;
@@ -207,7 +207,7 @@ html, body {
     height: 150%;
     bottom: 0%;
     left: 0px;
-    background-image: url('../images/baltic_sea.jpg');
+    background-image: url('../images/baltic_sea_tiny.jpg');
     background-size: cover;
     background-position: center center;
     z-index: -1;
@@ -220,7 +220,7 @@ html, body {
     height: 150%;
     bottom: 0%;
     left: 0px;
-    background-image: url('../images/grassence.jpg');
+    background-image: url('../images/grassence_tiny.jpg');
     background-size: cover;
     background-position: center center;
     z-index: -1;

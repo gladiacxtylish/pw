@@ -23,13 +23,13 @@ $(document).ready(function () {
      * Show image load progress
      */
     $(function () {
-        var loadImages = ['images/cloud.jpg',
-                'images/warm_day.jpg',
-                'images/cosmos_reflection.jpg',
-                'images/icewind_dale.jpg',
-                'images/twilight_leaves.jpg',
-                'images/baltic_sea.jpg',
-                'images/grassence.jpg'];
+        var loadImages = ['images/cloud_tiny.jpg',
+                'images/warm_day_tiny.jpg',
+                'images/cosmos_reflection_tiny.jpg',
+                'images/icewind_dale_tiny.jpg',
+                'images/twilight_leaves_tiny.jpg',
+                'images/baltic_sea_tiny.jpg',
+                'images/grassence_tiny.jpg'];
         var loadedImagesCount = 0;
         $.each(loadImages, function (index, value) {
             $('<img />').attr('src', value).on('load', function (e) {
